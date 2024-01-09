@@ -73,72 +73,66 @@ body {font-family: Arial, Helvetica, sans-serif;}
 <h5>Fill the form below.
 <i class="glyphicon glyphicon-pencil"></i></h5>
 <form>
-      <label>
-        First Name :
+      <p>
+      First Name :
         <input type="text" required />
-      </label>
-      <label>
-        Last Name :
+      Last Name :
         <input type="text" required />
-      </label>
+      </p>
+      <p>
       Father Name :
        <input type="text" required />
+      </p>
+      <p>
         Password :
         <input type="password" required />
+      </p>
+      <p>
       Bio:
         <textarea></textarea>
+      </p>
+      <p>
       Gender:
           <input
             type="radio"
             name="Insan"
             value="male"
             required
-          />Male<br /><br />
-        </label>
-        <label
-          ><input
+          />Male
+          <input
             type="radio"
             name="Insan"
             value="female"
             required
-          />Female<br /><br />
-        </label>
-        <label>
+          />Female
           <input
             type="radio"
             name="Insan"
             value="other"
             required
-          />Others<br /><br />
-        </label>
-      <br />
-        <legend>Interest in sports</legend>
-        <br />
-        <label>
+          />Others
+      </p>
+      <p>
+      Interest in sports:
           <input
             type="checkbox"
             name="Insan"
             value="Football"
             required
-          />Football<br /><br />
-        </label>
-        <label>
+          />Football
           <input
             type="checkbox"
             name="Insan"
             value="Cricket"
             required
-          />Cricket<br /><br />
-        </label>
-        <label>
+          />Cricket
           <input
             type="checkbox"
             name="Insan"
             value="Tennis"
             required
-          />Tennis<br /><br />
-        </label>
-      <label>
+          />Tennis
+       <p>
         Country :
         <select required>
           <option value="Pakistan">Pakistan</option>
@@ -146,44 +140,30 @@ body {font-family: Arial, Helvetica, sans-serif;}
           <option value="Canada">Canada</option>
           <option value="Turkey">Turkey</option>
         </select>
-      </label>
-      <br />
-      <br />
-      <label
-        >Preferred Colors :
+       <p>
+        Preferred Colors :
         <select multiple="multiple" required>
           <option value="Red" selected="selected">Red</option>
           <option value="Black">Black</option>
           <option value="Blue">Blue</option>
           <option value="White" selected="selected">white</option>
         </select>
-      </label>
-      <br />
-      <br />
-      <label
-        >Profile Picture :
+       </p>
+       <p>
+         Profile Picture :
         <input type="file" accept="image/*" required />
-      </label>
-      <br />
-      <br />
-      <label
-        >Birthday :
+       </p>
+       <p>
+         Birthday :
         <input type="date" required />
-      </label>
-      <br />
-      <br />
-      <label
-        >Email :
+        <p>
+         Email :
         <input type="email" required />
-      </label>
-      <br />
-      <br />
-      <label
-        >Search :
+        </p>
+        <p>
+         Search :
         <input type="search" required place-holder="search"/>
-      </label>
-      <br />
-      <br />
+        </p>
       <button type="submit">Submit</button>
       <button type="reset">Reset</button>
     </form>
