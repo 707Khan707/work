@@ -73,43 +73,141 @@ body {font-family: Arial, Helvetica, sans-serif;}
 <h5>Fill the form below.
 <i class="glyphicon glyphicon-pencil"></i></h5>
 <form>
-   <p>Student Name:
-    <input type="text">
-   </p>
-   <p>Father Name:
-    <input type="text">
-   </p>
-   <p>Date of Birth:
-    <input type="date">
-   </p>
-   <p>Gender:
-    <input type="radio">
-    Male
-    <input type="radio">
-    Female
-   </p>
-   <p>Phone#:
-    <input type="number">
-   </p>
-   <p>Address:
-    <input type="text">
-   </p>
-   <p>Choose subjects:
-    <input type="checkbox">
-    Physics
-    <input type="checkbox">
-    Mathematics
-    <input type="checkbox">
-    Chemistry
-   </p>
-   <p>Email:
-    <input type="email">
-   </p>
-   <p>
-    <input type="reset">
-    <input type="submit">
-   </p>
-</form>
+      <label>
+        First Name :
+        <input type="text" required />
+      </label>
+      <br />
+      <br />
+      <label>
+        Last Name :
+        <input type="text" required />
+      </label>
+      <br />
+      <br />
+      <label
+       >Father Name :
+       <input type="text" required />
+      </label>
+      <label
+        >Password :
+        <input type="password" required />
+      </label>
+      <br />
+      <br />
+      <label
+        >Bio:
+        <textarea></textarea>
+      </label>
+      <br />
+      <br />
+      <fieldset>
+        <legend>Gender</legend>
+        <br />
+        <label>
+          <input
+            type="radio"
+            name="Insan"
+            value="male"
+            required
+          />Male<br /><br />
+        </label>
+        <label
+          ><input
+            type="radio"
+            name="Insan"
+            value="female"
+            required
+          />Female<br /><br />
+        </label>
+        <label>
+          <input
+            type="radio"
+            name="Insan"
+            value="other"
+            required
+          />Others<br /><br />
+        </label>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Interest in sports</legend>
+        <br />
+        <label>
+          <input
+            type="checkbox"
+            name="Insan"
+            value="Football"
+            required
+          />Football<br /><br />
+        </label>
+        <label>
+          <input
+            type="checkbox"
+            name="Insan"
+            value="Cricket"
+            required
+          />Cricket<br /><br />
+        </label>
+        <label>
+          <input
+            type="checkbox"
+            name="Insan"
+            value="Tennis"
+            required
+          />Tennis<br /><br />
+        </label>
+      </fieldset>
+      <br />
+      <label>
+        Country :
+        <select required>
+          <option value="Pakistan">Pakistan</option>
+          <option value="America">America</option>
+          <option value="Canada">Canada</option>
+          <option value="Turkey">Turkey</option>
+        </select>
+      </label>
+      <br />
+      <br />
+      <label
+        >Preferred Colors :
+        <select multiple="multiple" required>
+          <option value="Red" selected="selected">Red</option>
+          <option value="Black">Black</option>
+          <option value="Blue">Blue</option>
+          <option value="White" selected="selected">white</option>
+        </select>
+      </label>
+      <br />
+      <br />
+      <label
+        >Profile Picture :
+        <input type="file" accept="image/*" required />
+      </label>
+      <br />
+      <br />
+      <label
+        >Birthday :
+        <input type="date" required />
+      </label>
+      <br />
+      <br />
+      <label
+        >Email :
+        <input type="email" required />
+      </label>
+      <br />
+      <br />
+      <label
+        >Search :
+        <input type="search" required place-holder="search"/>
+      </label>
+      <br />
+      <br />
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
 
 </center>
 </body>
