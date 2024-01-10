@@ -94,6 +94,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
           <option value="HSSC">HSSC</option>
         </select>
       </p>
+      <p>
       SPORTS:
           <input
             type="checkbox"
@@ -127,11 +128,16 @@ body {font-family: Arial, Helvetica, sans-serif;}
        </p>
         <p>
          B-Form (or) CNIC # :
-        <input type="number" required />
+        <input type="tel" 
+           id="phone" 
+           name="phone" 
+           placeholder="12345-1234567-8" 
+           pattern="[0-9]{5}-[0-9]{7}-[0-9]{1}" 
+           required>
        </p>
       <form>
       <p>
-      GENDER:<br>
+      GENDER:
         <input type="radio" name="Insan" value="Male" required/>
         <label for="Male"
         >Male</label>
@@ -190,7 +196,12 @@ body {font-family: Arial, Helvetica, sans-serif;}
        </p> 
        <p>
         PHONE # :
-        <input type="number" required/>
+          <input type="tel" 
+           id="phone" 
+           name="phone" 
+           placeholder="0303-0333000" 
+           pattern="[0-9]{4}-[0-9]{7}" 
+           required>
        </p>
         <p>
       BIO:
